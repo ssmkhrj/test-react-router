@@ -22,7 +22,7 @@ const Home = ({ setLevel }) => {
 const Game = ({ level }) => {
   return (
     <>
-      <h1>Welcome to the game</h1>
+      <h1>Hello from Game Page</h1>
       <p>Your level is {level}</p>
     </>
   );
