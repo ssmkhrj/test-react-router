@@ -11,8 +11,8 @@ const Home = ({ setLevel }) => {
     <>
       <h1>Choose Difficulty</h1>
       <ul>
-        <li onClick={setLevel("easy")}>Easy</li>
-        <li onClick={setLevel("hard")}>Hard</li>
+        <li onClick={() => setLevel("easy")}>Easy</li>
+        <li onClick={() => setLevel("hard")}>Hard</li>
       </ul>
       <Link to="/game">Play</Link>
     </>
